@@ -1,14 +1,16 @@
+import DataStructure.DoublyLinkedList;
 import DataStructure.LinkedList;
 
 public class Main {
     public static void main(String[] args) {
-        LinkedList myList = new LinkedList(1);
-        myList.append(2);
-        myList.append(3);
-        myList.append(4);
-        myList.printList();
-        myList.reverse();
-        myList.printList();
+        DoublyLinkedList myDLL = new DoublyLinkedList(7);
+        myDLL.append(10);
+        myDLL.prepend(33);
+        System.out.println(myDLL.get(4));
+
+
+
+
 
 
 
