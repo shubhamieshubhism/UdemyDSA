@@ -1,12 +1,13 @@
 import DataStructure.DoublyLinkedList;
 import DataStructure.LinkedList;
+import DataStructure.Queue;
+import DataStructure.Stack;
 
 public class Main {
     public static void main(String[] args) {
-        DoublyLinkedList myDLL = new DoublyLinkedList(7);
-        myDLL.append(10);
-        myDLL.prepend(33);
-        System.out.println(myDLL.get(4));
+        Queue myQueue = new Queue(7);
+        myQueue.enqueue(9);
+        myQueue.printQueue();
 
 
 
