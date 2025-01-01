@@ -8,6 +8,7 @@ public class Main {
         Queue myQueue = new Queue(7);
         myQueue.enqueue(9);
         myQueue.printQueue();
+        myQueue.getLength();
 
 
 
