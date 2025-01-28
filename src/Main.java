@@ -1,19 +1,8 @@
-import DataStructure.DoublyLinkedList;
-import DataStructure.LinkedList;
-import DataStructure.Queue;
-import DataStructure.Stack;
+import DataStructure.*;
 
 public class Main {
     public static void main(String[] args) {
-        Queue myQueue = new Queue(7);
-        myQueue.enqueue(9);
-        myQueue.printQueue();
-
-
-
-
-
-
-
+        BinarySearchTree myBST = new BinarySearchTree();
+        System.out.println("Root = "+myBST.root);
     }
 }

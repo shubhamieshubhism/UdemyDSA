@@ -6,6 +6,8 @@ public class LinkedList {
     private int length;
 
 
+    /*This is the nested class for node
+    * it can be used for creating further nodes in the linkedlist */
     public  class Node{
         public int value;
         Node next;
@@ -14,6 +16,7 @@ public class LinkedList {
         }
     }
 
+    /*This is the constructor for the linkedlist class */
     public LinkedList(int value){
         Node newNode = new Node(value);
         head=newNode;
