@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cfcbb08f-06bc-4ca3-9c0e-738e365da581" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,13 +119,22 @@
       <option name="project" value="LOCAL" />
       <updated>1738052532200</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="BST Insert Method">
+      <option name="closed" value="true" />
+      <created>1738069334625</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738069334625</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Further DSA method has been added into LL class" />
     <MESSAGE value="Stack and Queue updates" />
     <MESSAGE value="Binary Search Tree Program" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Search Tree Program" />
+    <MESSAGE value="BST Insert Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="BST Insert Method" />
   </component>
 </project>
