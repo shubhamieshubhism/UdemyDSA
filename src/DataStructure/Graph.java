@@ -3,6 +3,25 @@ package DataStructure;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+/*
+* public static void main(String[] args) {
+        Graph myGraph = new Graph();
+        myGraph.addVertex("A");
+        myGraph.addVertex("B");
+        myGraph.addVertex("C");
+        myGraph.addVertex("D");
+
+        myGraph.addEdge("A","B");
+        myGraph.addEdge("A","C");
+        myGraph.addEdge("A","D");
+        myGraph.addEdge("B","D");
+        myGraph.addEdge("C","D");
+
+        myGraph.removeVertex("D");
+
+        myGraph.printGraph();
+    }*/
+
 public class Graph {
     private HashMap<String, ArrayList<String>> adjList = new HashMap<>();
 
@@ -25,5 +44,23 @@ public class Graph {
             return true;
         }
         return false;
+    }
+
+    public boolean removeEdge(String vertex1, String vertex2){
+        if(adjList.get(vertex1)!=null && adjList.get(vertex2)!=null){
+            adjList.get(vertex1).remove(vertex2);
+            adjList.get(vertex2).remove(vertex1);
+            return true;
+        }
+        return false;
+    }
+
+    public boolean removeVertex(String vertex){
+        if(adjList.get(vertex)==null) return false;
+        for(String otherVertex : adjList.get(vertex)){
+            adjList.get(otherVertex).remove(vertex);
+        }
+        adjList.remove(vertex);
+        return true;
     }
 }
